@@ -1,0 +1,52 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": ",-----.,--.                  ,--. ,---.   ,--.,------.  ,------.     '  .--./|  | ,---. ,--.,--. ,-|  || o   \\  |  ||  .-.  \\ |  .---'     |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \\  :|  `--,      '  '--'\\|  |' '-' ''  ''  '\\ `-' | .'  /   |  ||  '--'  /|  `---.      `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'     -----------------------------------------------------------------",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "nodemon": "^1.9.2",
+    "serve-static": "^1.11.0",
+    "body-parser": "^1.15.1",
+    "compression": "^1.6.2",
+    "cors": "^2.7.1",
+    "method-override": "^2.3.6",
+    "morgan": "^1.7.0",
+    "run-sequence": "^1.2.1"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "bower": "^1.7.9",
+    "browser-sync": "^2.13.0",
+    "browserify": "^13.0.1",
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "font-awesome": "^4.6.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-csscomb": "^3.0.7",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-inject": "^4.1.0",
+    "gulp-load-plugins": "^1.2.2",
+    "gulp-minify": "0.0.11",
+    "gulp-postcss": "^6.1.0",
+    "gulp-purifycss": "^0.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^2.0.0-alpha",
+    "gulp-uglify": "^1.5.3",
+    "mocha": "^2.5.3",
+    "nsp": "^2.4.0",
+    "postcss-bem-linter": "^2.4.1",
+    "postcss-cssnext": "^2.5.2",
+    "postcss-font-magician": "^1.4.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha ./tests/tests.js",
+    "build": "nodemon -x gulp serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
